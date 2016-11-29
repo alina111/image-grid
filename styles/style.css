@@ -1,0 +1,24 @@
+.ba-container {
+	width: 1200px;
+	color: #fff;
+}
+[class*="ba-column"] div {
+	color: #fff;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	display: block;
+	height: 100%;
+}
+
+.ba-grid > [class*="ba-column-"] {
+	padding: 0 10px;
+}
+.ba-grid {
+	margin: 0 -10px;
+}
+.ba-grid + .ba-grid {
+	margin-top: 20px;
+}
+
